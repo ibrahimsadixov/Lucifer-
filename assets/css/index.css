@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 300px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: #fff;
+
+}
+#form h2{
+    font-size: 1rem;
+    padding: 0 15px;
+    text-align: center;
+
+}
+#form input{
+    width: 250px;
+    height: 45px;
+    padding-left: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+#form button{
+    width: 130px;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: .3s;
+}
+#form button:hover{
+    width: 130px;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    transition: .3s;
+}
+.starting{
+    display: none;
+    height: 100vh;
+    gap: 30px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.starting p{
+   color: #880808;
+   font-size: 2rem;
+   font-weight: bold;
+}
+.starting img {
+    animation: spin 10s linear infinite;
+    height: 300px;
+    width: auto;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(1080deg);
+      opacity: 1;
+    }
+ 
+  }
+  
+
+
+  
+  
